@@ -288,8 +288,8 @@ section {
                     h4 {
                         margin: 0;
                     }
-                }
-            }
+                }                
+            }            
         }
         .portfolio-caption {
             max-width: 400px;
@@ -562,25 +562,25 @@ section#contact {
     ::-webkit-input-placeholder {
        .heading-font;
        font-weight: 700;
-       color: @gray-darker;
+       color: @gray-lighter;
     }
     :-moz-placeholder { /* Firefox 18- */
        .heading-font;
        font-weight: 700;
-       color: @gray-darker;
+       color: @gray-lighter;
     }
     ::-moz-placeholder {  /* Firefox 19+ */
        .heading-font;
        font-weight: 700;
-       color: @gray-darker;
+       color: @gray-lighter;
     }
-    :-ms-input-placeholder {
+    :-ms-input-placeholder {  
        .heading-font;
        font-weight: 700;
-       color: @gray-darker;
+       color: @gray-lighter;
     }
     .text-danger {
-        color: @gray-darker;
+        color: @theme-danger;
     }
 }
 
@@ -589,11 +589,10 @@ section#contact {
 footer {
     padding: 25px 0;
     text-align: center;
-    a.copyright {
+    span.copyright {
         line-height: 40px;
         .heading-font;
         text-transform: none;
-        color: #080808;
     }
     ul.quicklinks {
         margin-bottom: 0;
@@ -705,8 +704,8 @@ ul.social-buttons {
                 -webkit-transform: rotate(90deg);
                 /* Safari and Chrome */
                 z-index:1052;
-            }
-        }
+            }            
+        }        
     }
     .modal-backdrop {
         opacity: 0;
