@@ -415,12 +415,8 @@ section h3.section-subheading {
   right: auto;
 }
 .timeline > li .timeline-image {
-  left: 0;
-  margin-left: 0;
   width: 80px;
   height: 80px;
-  position: absolute;
-  z-index: 100;
   background-color: #fed136;
   color: white;
   border-radius: 100%;
@@ -743,4 +739,35 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #fed136;
+}
+.szolgaltatasok-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  flex-direction: column;
+  margin: 15px;
+}
+.szolgaltatasok-item {
+  align-self: center;
+  margin: 15px;
+}
+@media (min-width: 768px) {
+  .szolgaltatasok-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    flex-direction: row;
+  }
+  .szolgaltatasok-item {
+    align-self: center;
+    margin: 0px;
+  }
+}
+.portfolio-img {
+  min-height: 219.983px;
+}
+.author {
+  color: black;
 }
