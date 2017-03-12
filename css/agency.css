@@ -765,8 +765,20 @@ body {
     margin: 0px;
   }
 }
-.portfolio-img {
-  min-height: 219.983px;
+@media (min-width: 1200px) {
+  .portfolio-img {
+    min-height: 270px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .portfolio-img {
+    min-height: 219.983px;
+  }
+}
+@media (max-width: 991px) {
+  .portfolio-img {
+    min-height: 300px;
+  }
 }
 .author {
   color: black;
