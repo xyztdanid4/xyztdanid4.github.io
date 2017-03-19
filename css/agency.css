@@ -251,6 +251,7 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
+  font-style: italic;
   font-weight: 700;
   font-size: 50px;
   line-height: 50px;
@@ -782,4 +783,10 @@ body {
 }
 .author {
   color: black;
+}
+.img-border {
+  border: 2px solid #777777;
+}
+.text-align-center {
+  text-align: center;
 }
