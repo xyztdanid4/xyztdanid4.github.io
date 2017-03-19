@@ -278,6 +278,14 @@ header .intro-text .intro-heading {
     margin-bottom: 50px;
   }
 }
+@media (max-width: 410px) {
+  header .intro-text .intro-heading {
+    font-size: 35px;
+  }
+  .section-heading {
+    font-size: 25px !important;
+  }
+}
 section {
   padding: 100px 0;
 }
@@ -546,6 +554,12 @@ section h3.section-subheading {
 }
 .team-member p {
   margin-top: 0;
+}
+.team-member i {
+  padding-right: 10px;
+}
+.team-member a {
+  color: #333333;
 }
 aside.clients img {
   margin: 50px auto;
